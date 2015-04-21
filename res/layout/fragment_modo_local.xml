@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/backgroundColor_DEFAULT"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.uam.eps.dadm.adrian_lorenzo.mode.ModoLocalActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white_app"
+        android:layout_marginTop="54dp"
+        android:text="@string/title_activity_modo_local"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:orientation="vertical" >
+
+<!--         <Button -->
+<!--             android:id="@+id/button_modo_online" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="@string/button_modo_online" /> -->
+
+        <Button
+            android:id="@+id/button_modo_local"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_modo_local" />
+        
+<!--          <Button -->
+<!--             android:id="@+id/button_modos_volver" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="@string/button_volver" /> -->
+        
+    </LinearLayout>
+
+</RelativeLayout>

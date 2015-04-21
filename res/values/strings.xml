@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Adrian_lorenzo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tableroBundle">tableroBundle</string>
+    <string name="action_settings">Opciones</string>
+    <string name="button_nuevaPartida">Nueva Partida</string>
+    <string name="button_terminarPartida">Terminar Partida</string>
+    <string name="app_title">Tres en Raya</string>
+    <string name="alert_exit_title">¿Desea salir?</string>
+    <string name="alert_exit_title_yes">SI</string>
+    <string name="alert_exit_title_no">NO</string>
+    <string name="button_volver">Volver</string>
+    <string name="title_activity_modo_online">Modo Online</string>
+    <string name="title_activity_modo_local">Modo Local</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_statistics">Estadísticas</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="button_modo_online">Modo Online</string>
+    <string name="button_modo_local">Modo Local</string>
+    <string name="title_activity_ayuda">Ayuda</string>
+    <string name="title_activity_horse">HorseActivity</string>
+    <string name="button_salir">Salir</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_settings">Opciones</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_game">Ajustes del juego</string>
+    <string name="pref_alert_exit_summary">Activar aviso al salir del juego</string>
+    <string name="pref_alert_exit_title">Ventana de aviso</string>
+    <string name="pref_figure_title">Tipo de figura</string>
+    <string name="pref_figure_summary">Pulse para mostrar la lista</string>
+    <!-- Strings related to login -->
+    <string name="prompt_usuario">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_log_in">Iniciar Sesión</string>
+    <string name="error_invalid_user">Usuario incorrecto</string>
+    <string name="error_invalid_password">Contraseña demasiado corta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="action_sign_in">Registrar</string>
+    <string name="accountFirstToastMessage">Añadido nuevo usuario a la base de datos</string>
+    <string name="error_login">Login fallido</string>
+    <string name="error_signin">Ese usuario ya existe</string>
+    <string name="checkbox_autologin">Recordar</string>
+    <string name="created_by">Creado por Adrián Lorenzo 2015</string>
+    <string name="game_description">Un simple tres en raya para la asignatura de Desarrollo de
+        Aplicaciones Móviles</string>
+    <string name="license">Esta aplicación es un proyecto open source publicado bajo la licencia
+        GPL2</string>
+    <string name="wins">Ganadas</string>
+    <string name="defeats">Perdidas</string>
+    <string name="number_games">Número total de partidas : </string>
+    <string name="username">Usuario :</string>
+    <string name="date_round">Fecha :</string>
+    <string name="round_id">Round :</string>
+    <string name="rounds_title">Partidas abiertas</string>
+    <string name="new_online_game_button">Crear nueva partida online </string>
+    <string name="new_online_game_toast_success">Nueva partida online creada </string>
+    <string name="new_online_game_toast_error">Error al crear nueva partida online </string>
+    <string name="join_online_game_toast_error">Error al unirse en partida </string>
+    <string name="active_rounds_title">Número de partidas activas : </string>
+    <string name="title_fragment_active_rounds">Partidas activas </string>
+    <string name="game_ending_msg">Fin de partida - </string>
+    <string name="game_ending_msg_winner"> Gana el jugador</string>
+    <string name="game_ending_msg_dead_heat">Todo queda en tablas</string>
+    <string name="turn_msg">Es tu turno</string>
+    <string name="help">Tres en Raya: Un jugador gana si consigue tener una línea de sus símbolos: la línea puede ser horizontal, vertical o diagonal
+    </string>
+</resources>

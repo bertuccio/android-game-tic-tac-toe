@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="backgroundColor_DEFAULT">#25709b</color>
+    <color name="backgroundColor_SPLASH">#8B2164</color>
+    <color name="white_app">#B3D5E8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tema1_circle_player1">#a7c5d7</color>
+    <color name="tema1_circle_player2">#0f2d3e</color>
+    <color name="tema2_circle_player1">#709B25</color>
+    <color name="tema2_circle_player2">#2C3E0E</color>
+    <color name="grey">#D9D9D9</color>
+    <color name="dark_app">#0f2d3e</color>
+    <color name="backgroundColor_Register">#648B21</color>
+    <color name="blue_app">#25709b</color>
+
+</resources>

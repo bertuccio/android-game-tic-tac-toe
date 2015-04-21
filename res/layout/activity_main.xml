@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor_DEFAULT"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.uam.eps.dadm.adrian_lorenzo.MainActivity" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/vista3raya_padding"
+        android:gravity="center_horizontal"
+        android:text="@string/app_title"
+        android:textColor="@color/white_app"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonNuevaPartida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/vista3raya_padding"
+            android:gravity="center_horizontal"
+            android:onClick="nuevaPartida"
+            android:padding="@dimen/vista3raya_padding"
+            android:textSize="@dimen/text_size_small"
+            android:text="@string/button_nuevaPartida" />
+
+        <Button
+            android:id="@+id/buttonTerminarPartida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_small"
+            android:layout_margin="@dimen/vista3raya_padding"
+            android:gravity="center_horizontal"
+            android:onClick="terminarPartida"
+            android:padding="@dimen/vista3raya_padding"
+            android:text="@string/button_terminarPartida" />
+
+        </LinearLayout>
+
+     <ProgressBar
+            android:id="@+id/refresh_game"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />
+    
+        <es.uam.eps.dadm.adrian_lorenzo.Vista3Raya
+            android:id="@+id/vista3Raya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/vista3raya_padding"
+            android:paddingLeft="@dimen/vista3raya_padding"
+            android:paddingRight="@dimen/vista3raya_padding"
+            android:paddingTop="@dimen/vista3raya_padding" />
+    </LinearLayout>

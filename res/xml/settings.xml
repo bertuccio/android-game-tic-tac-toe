@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<PreferenceCategory android:title="@string/pref_header_game" 
+    >
+        <ListPreference
+            android:id="@+id/listPreference"
+            android:dialogTitle="Elija la figura inicial"
+            android:entries="@array/figures"
+            android:entryValues="@array/figureCodes"
+            android:key="figure"
+            android:summary="@string/pref_figure_summary"
+            android:title="@string/pref_figure_title" />
+
+        <CheckBoxPreference
+            android:id="@+id/checkBoxAlert"
+            android:key="alert_exit"
+            android:summary="@string/pref_alert_exit_title"
+            android:title="@string/pref_alert_exit_summary" />
+            
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor_DEFAULT"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.uam.eps.dadm.adrian_lorenzo.MainMenuActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/TextTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/vista3raya_padding"
+        android:gravity="center_horizontal"
+        android:text="@string/app_title"
+        android:textColor="@color/white_app"
+        android:textSize="@dimen/text_size_login"
+        android:textStyle="bold" />
+
+</RelativeLayout>
